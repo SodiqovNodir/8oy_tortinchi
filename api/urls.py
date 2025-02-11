@@ -4,7 +4,7 @@ from .views import *
 
 
 urlpatterns = [
-    # topic
-    path('topic/', TitleListView.as_view()),
-    path('topic/<int:pk>/', TitleDetailView.as_view()),
+
+    path('title/', TitleListView.as_view()),
+    path('title/<int:pk>/', TitleDetailView.as_view()),
 ]
